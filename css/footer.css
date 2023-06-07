@@ -1,0 +1,27 @@
+footer {
+    background-color: var(--purple);
+    border-radius: 0px 0px 20px 20px;
+    height: 160px;
+    margin: 0 auto 22rem;
+    text-align: center;
+    width: 50%;
+}
+
+button {
+    background-color: var(--pink);
+    border: none;
+    border-radius: 20px;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 52px;
+    padding: 14px 279px;
+}
+
+button:hover {
+    background-color: #e93c5e;
+}
+
+button:active {
+    background-color: #cd2b4c;
+}

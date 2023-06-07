@@ -1,0 +1,68 @@
+@media screen and (max-width:1240px) {
+    button {
+        padding: 14px 190px;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    header h1, header p {
+        padding-left: 18rem;
+    }
+
+    .col-2 {
+        flex-direction: column;
+    }
+
+    .col-2 div {
+        width: 100%;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    button {
+        padding: 25px 0;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header h1, header p {
+        padding-left: 12rem;
+    }
+
+    form {
+        gap: 40px;
+        padding: 32px;
+    }
+}
+
+@media screen and (max-width:564px) {
+    header h1, header p {
+        padding-left: 4rem;
+    }
+
+    form {
+        margin: 0 55px;
+        padding: 16px;
+        width: 80%;
+    }
+
+    footer {
+        margin: 0 55px 266px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    form, footer {
+        margin: 0 35px;
+    }
+
+    footer {
+        margin-bottom: 266px;
+    }
+}

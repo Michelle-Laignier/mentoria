@@ -1,0 +1,55 @@
+:root {
+    --pink: #FF5374;
+    --purple: #535971;
+    --gray: #EFEFEF;
+    --span: #C1BCCC;
+    --white: #FFFFFF;
+    --font-title: 'Staatliches', cursive;
+    --font-text: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+body::before {
+    background-color: var(--purple);
+    content: '';
+    height: 27rem;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+body, input {
+    font-family: var(--font-text);
+}
+
+header {
+    margin-bottom: 3.6rem;
+}
+
+header h1 {
+    font-family: var(--font-title);
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 1.1rem;
+    padding-top: 9rem;
+}
+
+header h1, header p {
+    padding-left: 23rem;
+}
+
+header p {
+    font-size: 20px;
+}
